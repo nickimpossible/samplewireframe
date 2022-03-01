@@ -1,29 +1,29 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
-/* Parte cabeçalho */
-.cabeçalho{
+/* Parte cabecalho */
+.cabecalho{
     display: flex;
     justify-content: space-between;
 }
-.cabeçalho-esquerdo{
+.cabecalho-esquerdo{
     display: flex;
 
 }
-.cabeçalho-esquerdo ul {
+.cabecalho-esquerdo ul {
     display: flex;
 }
-.cabeçalho-esquerdo ul li{
+.cabecalho-esquerdo ul li{
     display: flex;
     margin-right: 40px;
     color: #18A0FB;
     text-decoration: none;
 }
-.cabeçalho-esquerdo ul li a{
+.cabecalho-esquerdo ul li a{
     color: #18A0FB;
     text-decoration: none;
 }
-.cabeçalho-esquerdo a:hover{
+.cabecalho-esquerdo a:hover{
     text-decoration: underline;
 }
 img{
@@ -33,19 +33,21 @@ img{
     margin-right: 70px;
 }
 
-/* Botões do cabeçalho */
+/* Botões do cabecalho */
 
-.cabeçalho-direita{
+.cabecalho-direita{
     margin-right: 80px;
 }
-.login{
+.botao-branco{
     border: 1px solid #18A0FB;
     box-sizing: border-box;
     border-radius: 6px;
     background-color: white;
     color: #18A0FB;
     margin-right: 12px;
-    padding: 11px 40px;
+    width: 130px;
+    height: 40px;
+
 }
 .register{
     background: #18A0FB;
@@ -56,7 +58,7 @@ img{
     padding: 11px 40px;
 }
 
-/* Seção do video */
+/* Secao do video */
 .parte-video{ 
     display: flex;
     align-items: center;
@@ -79,3 +81,31 @@ img{
     position: relative; 
     top: -250px; 
  }
+
+ /* secao 2 */
+
+ .secao-2{
+     display: flex;
+     flex-wrap: wrap;
+ }
+ .div-reparticoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.reparticoes{
+     display: flex;
+     flex-direction: column;
+     width: 600px;
+}
+.titulo-2{
+    font-size: 48px;
+    width: 750px;
+    height: 144px;
+    margin-left: 80px;
+    line-height: 72px;
+    letter-spacing: -0.015em;
+}
+
+/* secao 3 */
+
