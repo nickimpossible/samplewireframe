@@ -57,4 +57,19 @@ img{
     padding: 11px 40px;
 }
 
+/* Seção do video */
+.parte-video h1{
+    font-size: 56px;
+    text-align: center;
+}
+ .parte-video button{
+    background: #18A0FB;
+    border: #18A0FB;
+    border-radius: 6px;
+    color: white;
+    width: 192px;
+    height: 52px;
+    padding: 15px 50px;
+    margin: 752px;
 
+ }
