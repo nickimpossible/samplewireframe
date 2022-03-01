@@ -1,5 +1,4 @@
 body{
-    font-family: 
     font-family: 'Montserrat', sans-serif;
 }
 /* Parte cabeçalho */
@@ -58,9 +57,16 @@ img{
 }
 
 /* Seção do video */
+.parte-video{ 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 20px ;
+}
 .parte-video h1{
     font-size: 56px;
-    text-align: center;
+    position: relative;
+    top: -250px;
 }
  .parte-video button{
     background: #18A0FB;
@@ -70,6 +76,6 @@ img{
     width: 192px;
     height: 52px;
     padding: 15px 50px;
-    margin: 752px;
-
+    position: relative; 
+    top: -250px; 
  }
