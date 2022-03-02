@@ -169,3 +169,19 @@ img{
 
 /* secao 6 */
 
+.secao-6 nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 120px;
+    padding-bottom: 40px;
+    margin: 0px 80px 0px 80px;
+    border-bottom:1px solid lightgray;
+}
+.secao-6 p{
+    font-weight: bold;
+}
+.secao-6 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
