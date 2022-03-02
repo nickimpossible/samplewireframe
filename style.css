@@ -168,7 +168,6 @@ img{
 }
 
 /* secao 6 */
-
 .secao-6 nav{
     display: flex;
     justify-content: space-around;
@@ -184,4 +183,17 @@ img{
 .secao-6 p:hover{
     text-decoration: underline;
     cursor: pointer;
+}
+.secao-6 .social-midia {
+    display: flex;
+    justify-content: center;
+}
+.secao-6 .social-midia i{
+    padding: 80px 10.5px 40px 10.5px;
+}
+.secao-6{
+    text-align: center;
+}
+.secao-6 small{
+    padding-bottom: 120px;
 }
