@@ -87,11 +87,12 @@ img{
  .secao-2{
      display: flex;
      flex-wrap: wrap;
+     padding: 80px;
  }
  .div-reparticoes{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .reparticoes{
      display: flex;
@@ -102,10 +103,69 @@ img{
     font-size: 48px;
     width: 750px;
     height: 144px;
-    margin-left: 80px;
     line-height: 72px;
     letter-spacing: -0.015em;
 }
 
 /* secao 3 */
+
+.secao-3{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 80px;
+}
+.secao-3-part{
+     display: flex;
+}
+.secao-3-part > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secao-3 img{
+    Width: 600px;
+    Height: 300px;
+}
+
+/* secao 4 */
+
+.secao-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+}
+.secao-4 h1{
+    font-size: 48px;
+}
+.secao-4 p{
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.grid-parte{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-row-gap: 64px;
+}
+.grid-parte img{
+    Width: 173px;
+    Height: 76px;
+}
+
+/* sacao 5 */
+
+.secao-5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.secao-5 p{
+    font-size: 36px;
+    width: 943px;
+    height: 100px;
+}
+
+/* secao 6 */
 
