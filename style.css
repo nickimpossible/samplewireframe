@@ -1,6 +1,9 @@
 body{
     font-family: 'Montserrat', sans-serif;
 }
+.bg-cinza{
+    background-color: #F5F5F5;
+}
 /* Parte cabecalho */
 .cabecalho{
     display: flex;
@@ -8,7 +11,7 @@ body{
 }
 .cabecalho-esquerdo{
     display: flex;
-
+    align-items: center;
 }
 .cabecalho-esquerdo ul {
     display: flex;
@@ -98,6 +101,7 @@ img{
      display: flex;
      flex-direction: column;
      width: 600px;
+     
 }
 .titulo-2{
     font-size: 48px;
@@ -112,10 +116,10 @@ img{
 .secao-3{
     display: flex;
     flex-wrap: wrap;
-    padding: 80px;
 }
 .secao-3-part{
-     display: flex;
+    display: flex;
+    padding: 80px;  
 }
 .secao-3-part > div{
     display: flex;
